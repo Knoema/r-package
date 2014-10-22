@@ -3,7 +3,7 @@
 \alias{knoema}
 \title{Retrieve data from Knoema using Knoema API}
 \usage{
-knoema("IMFWEO2014Apr?Time=2004-2013&country=1000080&subject=1000010&Frequencies=A")
+knoema(params)
 }
 \arguments{
 \item{params}{A list of parameters for filtering data}
@@ -13,5 +13,8 @@ list of time series objects
 }
 \description{
 Takes datasetid, dimentions, time and frequency and pulls data from knoema.com
+}
+\examples{
+knoema("IMFWEO2014Apr?Time=2004-2013&country=1000080&subject=1000010&Frequencies=A")
 }
 

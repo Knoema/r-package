@@ -3,7 +3,8 @@
 #' Takes datasetid, dimentions, time and frequency and pulls data from knoema.com
 #' @param params A list of parameters for filtering data
 #' @return list of time series objects
-#' @usage knoema("IMFWEO2014Apr?Time=2004-2013&country=1000080&subject=1000010&Frequencies=A")
+#' @usage knoema(params)
+#' @examples knoema("IMFWEO2014Apr?Time=2004-2013&country=1000080&subject=1000010&Frequencies=A") 
 #' @importFrom httr GET
 #' @export
 
